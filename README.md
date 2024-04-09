@@ -19,6 +19,11 @@ Course URL		: The Course URL.
 Course Description	: The Description of the Course. Has Missing Values.
 Skills	: The Skill Tags associated with the Course extracted through NLP processes.
 
+
+run commands:
+python recomend_page.py
+streamlit run recomend_page.py
+
 Data Pre-processing
 
 The data preprocessing steps undertaken involved an initial inspection and understanding of the dataset structure. With a total of 3522 entries across seven distinct columns, the dataset exhibited a comprehensive scope, encapsulating crucial attributes pivotal for course recommendation. These attributes included 'Course Name,' 'University,' 'Difficulty Level,' 'Course Rating,' 'Course URL,' 'Course Description,' and 'Skills.' Notably, all columns contained 'object' data types, signifying diverse textual or categorical information. Subsequent examinations revealed the absence of any missing or null values within the dataset, affirming its completeness and reliability for further analysis. Analysis of categorical attributes like 'Difficulty Level' unveiled the distribution of courses across proficiency levels, ranging from 'Beginner,' 'Advanced,' 'Intermediate,' 'Conversant,' to 'Not Calibrated,' offering insights into the variety of skill levels catered to within the dataset. Moreover, a comprehensive view of course ratings and their frequencies demonstrated the varied feedback courses received, while an assessment of the universities' course offerings shed light on the diverse educational institutions contributing to the dataset, with 'Coursera Project Network' notably leading in course provision. These meticulous steps in data preprocessing established a robust foundation for subsequent analytical and recommendation system development, ensuring a comprehensive understanding of the dataset's attributes and distributions.
