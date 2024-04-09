@@ -63,6 +63,11 @@ Within the 'main' function, the Streamlit elements are orchestrated. The interfa
 The 'st.subheader' and 'st.text' functions then display the recommended course names in the interface. The code systematically iterates through the recommended courses and exhibits them within the Streamlit interface.
 Overall, this web interface leverages Streamlit's simplicity to create an interactive platform allowing users to select courses and receive personalized recommendations, thereby streamlining the course discovery process. The backend functionalities, combined with the user-friendly interface, create an accessible system for users to explore and discover courses aligned with their interests.
 
+Result:
+
+![image](https://github.com/SubithaSomadas/CourseRecomendationSystem/assets/132773889/2af52e86-4dde-4843-838c-903c695e9a2c)
+
+
 Conclusion
 
 This project stands as a testament to the fusion of advanced machine learning techniques and user-centric interface design, culminating in a sophisticated yet accessible course recommendation system. By harnessing the power of cosine similarity and adeptly manipulating textual data, this system revolutionizes the way users engage with educational content. The robust backend, encapsulated in the Python code, processes a diverse dataset of over 3500 courses, extracting nuances from 'Course Name,' 'University,' 'Difficulty Level,' 'Course Rating,' 'Course URL,' 'Course Description,' and 'Skills' columns to create a comprehensive matrix of course similarities.
