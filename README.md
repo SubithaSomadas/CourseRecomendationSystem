@@ -21,8 +21,9 @@ Skills	: The Skill Tags associated with the Course extracted through NLP process
 
 
 run commands:
-python recomend_page.py
-streamlit run recomend_page.py
+> python recomend_page.py
+
+> streamlit run recomend_page.py
 
 Data Pre-processing
 
